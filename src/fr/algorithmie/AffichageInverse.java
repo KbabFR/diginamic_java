@@ -2,10 +2,11 @@ package fr.algorithmie;
 
 public class AffichageInverse {
 
-	/*
-	 * Main method of AffichageInverse
+	/* Main method of AffichageInverse
+	 * We print the array reverse
 	 */
 	public static void main(String[] args) {
+		
 		// Array of int given in the TP
 		int[] array = {1, 15, -3, 0, 8, 7, 4, -2, 28, 7, -1, 17, 2, 3, 0, 14, -4} ;
 		
@@ -16,7 +17,7 @@ public class AffichageInverse {
 		}
 		System.out.println(array[array.length -1]);
 		
-		// Print all int in array BUT IN REVERSE!
+		// Print all int in array BUT IT'S REVERSE!
 		System.out.print("Here is all the value of array reversed : ");
 		for(int i = array.length -1; i > 0; i--) {
 			System.out.print(array[i] + ", ");
